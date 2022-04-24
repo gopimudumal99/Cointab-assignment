@@ -1,0 +1,62 @@
+[
+    {
+        "type" : "Forward",
+        "first_half_kg": 29.5,
+        "Zone":"a",
+        "additional_each_halfkg":23.6
+    },
+    {
+        "type" : "Forward",
+        "first_half_kg": 33,
+        "Zone":"b",
+        "additional_each_halfkg":28.3
+    },
+    {
+        "type" : "Forward",
+        "first_half_kg": 40.1,
+        "Zone":"c",
+        "additional_each_halfkg":38.9
+    },
+    {
+        "type" : "Forward",
+        "first_half_kg": 45.4,
+        "Zone":"d",
+        "additional_each_halfkg":44.8
+    },
+    {
+        "type" : "Forward",
+        "first_half_kg": 56.6,
+        "Zone":"e",
+        "additional_each_halfkg":55.5
+    },
+    {
+        "type" : "Forward & RTO",
+        "first_half_kg": 43.1,
+        "Zone":"a",
+        "additional_each_halfkg":47.2
+    },
+    {
+        "type" : "Forward & RTO",
+        "first_half_kg": 53.5,
+        "Zone":"b",
+        "additional_each_halfkg":56.6
+    },
+    {
+        "type" : "Forward & RTO",
+        "first_half_kg": 72,
+        "Zone":"c",
+        "additional_each_halfkg":77.8
+    },
+    {
+        "type" : "Forward & RTO",
+        "first_half_kg": 86.7,
+        "Zone":"d",
+        "additional_each_halfkg":89.6
+    },
+    {
+        "type" : "Forward & RTO",
+        "first_half_kg": 107.3,
+        "Zone":"e",
+        "additional_each_halfkg":111
+    }
+]
