@@ -27,7 +27,7 @@ exports.getCharge = async(req,res)=>{
 
         // pincode present or not 
         let isAvailable = Pincode.filter((each)=>each.pincode == pincode);
-        if(!isAvailable.length){
+        if(isAvailable.length == 0){
             return res.status(404).json({
                 success:false,
                 err:"this pincode is not available please try another"

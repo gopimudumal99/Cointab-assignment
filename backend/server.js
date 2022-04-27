@@ -13,3 +13,4 @@ dotenv.config({ path: "backend/src/configs/config.env" });
 app.listen(process.env.PORT,()=>{
      console.log(`listing on port ${process.env.PORT}`)
 })
+

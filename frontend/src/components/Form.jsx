@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import axios from 'axios'
 
 function Form() {
 
@@ -12,7 +11,6 @@ function Form() {
 
     const submitHandler = (e) =>{
         e.preventDefault()
-        alert(JSON.stringify(data))
         getCharge()
     }
     const requestOptions = {
@@ -33,6 +31,7 @@ function Form() {
   return (
     <div>
         <form action="" className='formName' onSubmit={(e)=>submitHandler(e)}>
+        <h2>Courier charge calculator</h2>
         <input type="number" name="weight" value={weight} onChange={handleInputChange} placeholder='Weight' required/>
         <input type="number" name="pincode" value={pincode} onChange={handleInputChange} placeholder='pincode' required/>
         <select name="type" value={type} onChange={handleInputChange}>
